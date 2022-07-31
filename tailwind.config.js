@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     extend: { fontFamily: {
       Montserrat: ['Montserrat', "sans-serif"],
+      RobotoC: ['Roboto', "sans-serif"],
+      MonoRoboto:['Roboto Mono',"sans-serif"]
      }},
   },
   plugins: [    require('tailwindcss'),
