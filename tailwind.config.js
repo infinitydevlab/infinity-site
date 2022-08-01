@@ -11,6 +11,7 @@ module.exports = {
    
       backgroundImage: theme => ({
        'heroback': "url('./imgs/background.png')",
+       'endback': "url('./imgs/secondBanner3.webp')",
       })
      
   },
