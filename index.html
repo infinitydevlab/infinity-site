@@ -1,0 +1,495 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Infinity Lab's</title>
+	<link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+	<script src="./assets/scripts/scrollreveal.js"></script>
+	<script>
+		ScrollReveal({ duration: 1000 })
+	</script>
+	<link href="output.css" rel="stylesheet">
+	<link href="./assets/style/custom.css" rel="stylesheet">
+	<link href="./imgs/logoNoBG.png" rel="shortcut icon">
+</head>
+
+<body class="bg-white">
+	<aside class="  bg-heroback   bg-center bg-no-repeat bg-cover">
+		<div>
+			<nav class="bg-gray-900/80  ">
+				<div class="max-w-7xl mx-auto px-6">
+					<div class="flex items-center justify-between h-16">
+						<div class="w-full justify-between flex items-center">
+							<a class="flex-shrink-0" href="/">
+								<img class="w-16" src="./imgs/logoNoBG.png" alt="Workflow" />
+							</a>
+							<div class="hidden md:block">
+								<div class="ml-10 flex items-baseline space-x-4">
+									<a class="text-red-400  hover:text-red-400  px-3 py-2 rounded-md text-sm font-medium"
+										href="/#">
+										Inicio
+									</a>
+									<a class="text-gray-300  hover:text-red-400  px-3 py-2 rounded-md text-sm font-medium"
+										href="#about">
+										Sobre nós
+									</a>
+									<a class="text-gray-300  hover:text-red-400  px-3 py-2 rounded-md text-sm font-medium"
+										href="#community">
+										Comunidade
+									</a>
+									<a class="text-gray-300  hover:text-red-400  px-3 py-2 rounded-md text-sm font-medium"
+										href="#how">
+										Participar
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="ml-4 flex items-center md:ml-6">
+							</div>
+						</div>
+						<div class="-mr-2 flex md:hidden">
+							<button onclick="mobileMenuShow()"
+								class="text-gray-300  hover:text-red-400 inline-flex items-center justify-center p-2 rounded-md focus:outline-none">
+								<svg width="20" height="20" fill="currentColor" class="h-8 w-8" viewBox="0 0 1792 1792"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M1664 1344v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45zm0-512v128q0 26-19 45t-45 19h-1408q-26 0-45-19t-19-45v-128q0-26 19-45t45-19h1408q26 0 45 19t19 45z">
+									</path>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div id="menuMobile" class="md:hidden">
+					<div class=" px-2 pt-2 pb-3 space-y-1 sm:px-3">
+						<a class="text-red-400  hover:text-red-400  px-3 py-2 rounded-md text-base font-medium"
+							href="/#">
+							Inicio
+						</a>
+						<a class="text-gray-300  hover:text-red-400   block px-3 py-2 rounded-md text-base font-medium"
+							href="#about">
+							Sobre nós
+						</a>
+						<a class="text-gray-300  hover:text-red-400  block px-3 py-2 rounded-md text-base font-medium"
+							href="https://discord.gg/zV3NZfCqpy">
+							Comunidade
+						</a>
+						<a class="text-gray-300  hover:text-red-400  block px-3 py-2 rounded-md text-base font-medium"
+							href="/#">
+							Participar
+						</a>
+					</div>
+				</div>
+
+			</nav>
+		</div>
+
+
+
+
+		<section i class="text-white  bg-gray-900/80">
+			<div
+				class="area-1 container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
+				<div class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-3xl lg:text-left">
+					<p class="ml-1  text-xl font-RobotoC">Seja bem-vindo a Infinity,</p>
+					<h1 class="text-5xl font-RobotoC leading-none sm:text-[49px]">Impulsione seu <span
+							class="text-[#c42527]">conhecimento</span>, na <span class="text-[#c42527]">prática</span> e
+						<span class="text-[#c42527]">gratuito</span> em <span class="text-[#c42527]">programação</span>.
+					</h1>
+					<p class="font-MonoRoboto mt-6 mb-8 text-base max-w-xl sm:mb-12">
+						Nós somos um projeto e comunidade educativa com o intuito de unir programadores juniors e
+						intermediários a trabalhar em grupo em diversos projetos open-sources criados pela nossa propria
+						comunidade.
+
+					</p>
+					<div
+						class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+						<a rel="noopener noreferrer" href="#"
+							class=" transition duration-200 px-8 py-3 text-lg font-MonoRoboto rounded bg-[#c42527]  hover:bg-[#86191b] text-white">Começar
+							agora </a>
+						<a rel="noopener noreferrer" href="#"
+							class=" transition duration-200 px-8 py-3 text-lg font-MonoRoboto border-2  rounded border-white hover:border-red-500  ">Ler
+							mais<i class="ml-2 fa-solid fa-book"></i></a>
+					</div>
+				</div>
+				<div class="flex items-center justify-center p-6 mt-8 lg:mt-10 h-72 sm:h-112">
+					<img src="./imgs/banner2.svg" alt=""
+						class="hidden xl:block lg:hidden :hidden object-contain ml-70 mt-[28rem] h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+				</div>
+			</div>
+		</section>
+
+	</aside>
+
+	<section class="area-2 bg-white">
+		<div class="container mx-auto grid grid-cols-2 gap-8 md:grid-cols-4 py-8 text-center">
+			<div>
+				<h5 class="text-5xl font-bold text-white">
+					<span id="repoNumber" class="inline text-gray-800">
+
+					</span>
+					<span class="text-red-400">
+						+
+					</span>
+				</h5>
+				<p class="text-gray-600 tracking-wide text-xs font-RobotoC uppercase">
+					Projetos em andamento
+				</p>
+			</div>
+			<div>
+				<h5 class="text-5xl font-bold text-white">
+					<span id="memberNumber" class="inline text-gray-800">
+						13
+					</span>
+					<span class="text-red-400">
+						+
+					</span>
+				</h5>
+				<p class="text-gray-600 tracking-wide text-xs font-RobotoC uppercase">
+					Membros ativos
+				</p>
+			</div>
+			<div>
+				<h5 class="text-5xl font-bold text-gray-800">
+					<span class="inline">
+						2
+					</span>
+					<span class="text-red-400">
+						+
+					</span>
+				</h5>
+				<p class="text-gray-600 tracking-wide text-xs font-RobotoC uppercase">
+					Projetos Finalizados
+				</p>
+			</div>
+			<div>
+				<h5 class="text-5xl font-bold text-gray-800">
+					<span class="inline text-gray-800">
+						1
+					</span>
+					<span class="text-red-400">
+						+
+					</span>
+				</h5>
+				<p class="text-gray-600 tracking-wide text-xs font-RobotoC uppercase">
+					Anos de criação
+				</p>
+			</div>
+		</div>
+		<!-- <div class="w-60 mx-auto mt-4 p-4 flex">
+			<button type="button" class="py-2 px-4 font-RobotoC bg-white hover:bg-gray-100 focus:ring-red-500 focus:ring-offset-red-200 text-red-500 w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+				Entrar na comunidade
+			</button>
+		</div> -->
+	</section>
+	<section id="about" class="mb-20">
+		<div class="area-3  container max-w-xl p-6 py-2 mx-auto space-y-12 lg:px-0 lg:max-w-7xl">
+			<div>
+			</div>
+			<div class="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+				<div>
+					<h3 class="text-2xl font-RobotoC tracking-tight sm:text-3xl text-gray-900"><i
+							class="fa-solid fa-graduation-cap"></i> Aprendizado gratuito</h3>
+					<p class="mt-3 text-lg text-gray-400 font-MonoRoboto ">Você "paga" a gente estudando, e
+						desenvolvendo!, suas contribuições para os desafios e projetos são sua forma de retribuição.</p>
+					<div class="mt-12 space-y-12">
+						<div class="flex">
+							<div class="flex-shrink-0">
+								<div class="flex items-center justify-center w-12 h-12 rounded-md  text-gray-900">
+									<img src="./imgs/icon1.png">
+								</div>
+							</div>
+							<div class="ml-4">
+								<h4 class="text-lg font-RobotoC leading-6 text-gray-700">Sistema de Gerenciamento
+									Próprio</h4>
+								<p class="mt-2 font-MonoRoboto text-gray-400">Temos nossa propria API e sistema de
+									gerenciamento de projetos, tudo para entregar a você o maximo de conforto ao
+									desenvolver os desafios e projetos.</p>
+							</div>
+						</div>
+						<div class="flex">
+							<div class="flex-shrink-0">
+								<div class="flex items-center justify-center w-12 h-12 rounded-md  text-gray-900">
+									<img src="./imgs/icon2.png">
+								</div>
+							</div>
+							<div class="ml-4">
+								<h4 class="text-lg font-RobotoC leading-6 text-gray-700">Trabalho em Grupo</h4>
+								<p class="mt-2 font-MonoRoboto text-gray-400">Nós sempre optamos pelo trabalho em grupo
+									em primeiro lugar, muitos cursos ensinam você apenas como desenvolver sozinho aqui
+									na infinity você aprende em grupo.
+								</p>
+							</div>
+						</div>
+						<div class="flex">
+							<div class="flex-shrink-0">
+								<div class="flex items-center justify-center w-12 h-12 rounded-md  text-gray-900">
+									<img src="./imgs/icon3.png">
+								</div>
+							</div>
+							<div class="ml-4">
+								<h4 class="text-lg font-RobotoC leading-6 text-gray-700">Impulsionando a sua carreira
+								</h4>
+								<p class="mt-2 font-MonoRoboto  text-gray-400">Além de focarmos em ensinar o
+									desenvolvimento de aplicações em grupo que é extremamente cobiçado por empresas,
+									também não deixamos de lado ferramentas e linguagens modernas.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div aria-hidden="true" class=" mt-10 lg:mt-0">
+					<img src="./imgs/secondBanner.webp" alt=""
+						style="border-radius: 75% 25% 70% 30% / 30% 56% 44% 70% ;"
+						class=" mx-auto rounded-lg shadow-2xl  w-[1380px] h-[295px] sm:h-[450px] bg-gray-500">
+				</div>
+			</div>
+			<div>
+				<div class="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+					<div class="lg:col-start-2">
+						<h3 class="text-2xl font-RobotoC tracking-tight sm:text-3xl text-gray-900"><i
+								class="fa-solid fa-people-group"></i> Pela comunidade</h3>
+						<p class="mt-3 text-lg font-MonoRoboto text-gray-400">Nós da infinity somos um projeto 100%
+							mantido pela comunidade DEV, apenas o vontade e dedicação coletiva em ensinar e aprender.
+						</p>
+						<div class="mt-12 space-y-12">
+							<div class="flex">
+								<div class="flex-shrink-0">
+									<div class="flex items-center justify-center w-12 h-12 rounded-md ">
+										<img src="./imgs/icon4.png">
+									</div>
+								</div>
+								<div class="ml-4">
+									<h4 class="text-lg font-RobotoC leading-6 text-gray-700">Estude usando Git & GitHub
+									</h4>
+									<p class="mt-2  font-MonoRoboto text-gray-400">Iremos te ensinar e fazer usar da
+										forma correta (boas praticas, comandos especiais e muito mais), o mais famoso e
+										utilizado versionador de codigo do mundo da programação.
+									</p>
+								</div>
+							</div>
+							<div class="flex">
+								<div class="flex-shrink-0">
+									<div class="flex items-center justify-center w-12 h-12 rounded-md ">
+										<img src="./imgs/icon5.png">
+									</div>
+								</div>
+								<div class="ml-4">
+									<h4 class="text-lg font-RobotoC leading-6 text-gray-700">Você é dono do seu código
+									</h4>
+									<p class="mt-2 font-MonoRoboto text-gray-400">Por conta do nosso sistema de
+										gerenciamento de projetos, damos a você todos os creditos pela sua participação
+										em qualquer projeto em grupo que você tenha colaborado, tudo que você desenvolve
+										é seu!
+									</p>
+								</div>
+							</div>
+							<div class="flex">
+								<div class="flex-shrink-0">
+									<div class="flex items-center justify-center w-12 h-12 rounded-md">
+										<img src="./imgs/icon6.png">
+									</div>
+								</div>
+								<div class="ml-4">
+									<h4 class="text-lg font-medium leading-6 text-gray-700">Supervisores qualificados
+									</h4>
+									<p class="mt-2 font-MonoRoboto text-gray-400">Quando propomos desafios para a
+										comunidade, todas equipes seram supervisionadas por desenvolvedores de alto
+										nivel, trabalhando ao maximo para guiar e ensinar os participantes.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mt-10 lg:mt-0  lg:col-start-1 lg:row-start-1">
+						<img src="./imgs/secondBanner2.webp" alt=""
+							style="border-radius: 75% 25% 70% 30% / 30% 57% 43% 70%  ;"
+							class="mx-auto w-[1380px] h-[295px] sm:h-[450px] rounded-lg shadow-2xl bg-gray-500">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="community" class="area-4 mx-8 sm:mx-24 border-[6px] border-dashed border-red-500 rounded-3xl  ">
+		<div class=" max-w-screen-xl px-8 py-24 mx-auto  lg:px-24">
+			<div class="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
+				<div class="hidden sm:block relative h-64 overflow-hidden rounded-lg sm:h-80 lg:h-full lg:order-last">
+					<img class="absolute inset-0  w-full h-full" src="./imgs/banner3.svg" alt="Man using a computer" />
+				</div>
+
+				<div class="lg:py-24">
+					<h2 class="text-3xl font-RobotoC sm:text-4xl"><i class="fa-brands fa-discord"></i> Conheça nossa
+						comunidade!</h2>
+
+					<p class="mt-4 font-MonoRoboto text-gray-600">
+						Gostou do nosso projeto? que tal dar uma olhada na nossa comunidade no Discord!,
+						lá você recebe antes de todo mundo atualizações sobre nossos desafios e projetos, além de poder
+						conversar com diversos outros programadores.
+					</p>
+
+					<a class=" transition duration-300 inline-flex  items-center px-12 py-3 mt-8 text-white  bg-red-600 border border-red-600 rounded hover:bg-transparent hover:text-red-600 active:text-red-500 focus:outline-none focus:ring"
+						href="https://discord.com/invite/zV3NZfCqpy">
+						<span class="text-base font-RobotoC"> Acesse o discord </span>
+
+						<svg class="w-5 h-5 ml-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+							stroke="currentColor">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+								d="M17 8l4 4m0 0l-4 4m4-4H3" />
+						</svg>
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="how" class="mb-8 mt-12 area-5">
+		<aside class="  bg-heroback   bg-center bg-no-repeat bg-cover"></aside>
+		<div class="">
+			<div
+				class=" p-8 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-12 lg:py-20">
+				<div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+					<div>
+						<!-- <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+			 Teste
+			</p> -->
+					</div>
+					<h2
+						class="max-w-lg mb-6 font-RobotoC text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+						<span class="relative inline-block">
+							<svg viewBox="0 0 52 24" fill="currentColor"
+								class="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block">
+								<defs>
+
+								</defs>
+								<rect fill="url(#b902cd03-49cc-4166-a0ae-4ca1c31cedba)" width="52" height="24"></rect>
+							</svg>
+							<span class="relative"><i class="fa-solid fa-puzzle-piece"></i> Como</span>
+						</span>
+						participar dos <span class="text-red-600">desafios</span>?
+					</h2>
+					<p class="font-MonoRoboto text-sm text-gray-700 md:text-lg">
+						Nossos desafios são semanais e ocorrem 5 vezes ao mês todos eles são realizados por meio da
+						plataforma do GITHUB integrando com a nossa API.
+					</p>
+				</div>
+				<div class=" grid gap-10 lg:grid-cols-4 sm:grid-cols-2">
+					<div
+						class=" transition duration-500 sm:border-b-[3px] sm:border-[0px] border-[3px]  hover:shadow-2xl border-red-500 rounded-3xl  p-8">
+						<div class=" flex items-center justify-between mb-6">
+							<p class="text-2xl font-bold">Primeiro Passo</p>
+							<svg class="w-6 text-red-500 transform rotate-90 sm:rotate-0" stroke="currentColor"
+								stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+								<line fill="none" stroke-miterlimit="10" x1="2" y1="12" x2="22" y2="12"></line>
+								<polyline fill="none" stroke-miterlimit="10" points="15,5 22,12 15,19 "></polyline>
+							</svg>
+						</div>
+						<p class="font-MonoRoboto text-gray-600">
+							Leia as instruções do desafio, elas geralmente são encontradas no README de cada
+							repositório.
+						</p>
+					</div>
+					<div
+						class="  transition duration-500 sm:border-b-[3px] sm:border-[0px] border-[3px]  hover:shadow-2xl border-red-500 rounded-3xl  p-8">
+						<div class="flex items-center justify-between mb-6">
+							<p class="text-2xl font-bold">Segundo Passo</p>
+							<svg class="w-6 text-red-500 transform rotate-90 sm:rotate-0" stroke="currentColor"
+								stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+								<line fill="none" stroke-miterlimit="10" x1="2" y1="12" x2="22" y2="12"></line>
+								<polyline fill="none" stroke-miterlimit="10" points="15,5 22,12 15,19 "></polyline>
+							</svg>
+						</div>
+						<p class="font-MonoRoboto text-gray-600">
+							Crie sua fork com a pasta e titulo com seu nome e comece a resolver as etapas propóstas pelo
+							desafio.
+						</p>
+					</div>
+					<div
+						class=" transition duration-500 sm:border-b-[3px] sm:border-[0px] border-[3px]  hover:shadow-2xl border-red-500 rounded-3xl  p-8">
+						<div class="flex items-center justify-between mb-6">
+							<p class="text-2xl font-bold">Terceiro Passo</p>
+							<svg class="w-6 text-red-500 transform rotate-90 sm:rotate-0" stroke="currentColor"
+								stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+								<line fill="none" stroke-miterlimit="10" x1="2" y1="12" x2="22" y2="12"></line>
+								<polyline fill="none" stroke-miterlimit="10" points="15,5 22,12 15,19 "></polyline>
+							</svg>
+						</div>
+						<p class=" font-MonoRoboto text-gray-600">
+							Nós temos chats especificos com especialistas para ajudar os desenvolvedores a solucionar os
+							desafios.
+						</p>
+					</div>
+					<div
+						class=" transition duration-500 sm:border-b-[3px] sm:border-[0px] border-[3px] hover:shadow-2xl border-green-500 rounded-3xl  p-8">
+						<div class="flex items-center justify-between mb-6">
+							<p class="text-2xl font-bold">Ultimo Passo</p>
+							<svg class="w-8 text-green-500" stroke="currentColor" viewBox="0 0 24 24">
+								<polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+									stroke-miterlimit="10" points="6,12 10,16 18,8"></polyline>
+							</svg>
+						</div>
+						<p class=" font-MonoRoboto text-gray-600">
+							Adicione sua FORK ao seu perfil na infinity e aguarde o fim do desafio para receber a sua
+							pontuação.
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<script>
+		var x = document.getElementById("menuMobile");
+		function mobileMenuShow() {
+			if (x.style.display === "none") {
+				x.style.display = "block";
+			} else {
+				x.style.display = "none";
+			}
+		}
+		window.addEventListener('resize', function (event) {
+			x.style.display = "none"
+		});
+
+	</script>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script>
+		function APIGets() {
+			axios.get("https://api.github.com/users/infinitydevlab").then(response => {
+
+				let repoOutput = document.getElementById("repoNumber")
+				repoOutput.innerText = response.data.public_repos
+			})
+			axios.get("https://discord.com/api/guilds/1001666305272848444/widget.json").then(responde => {
+				let memberOutput = document.getElementById("memberNumber")
+				console.log(responde)
+				memberOutput.innerText = responde.data.presence_count
+			})
+
+		}
+		APIGets()
+	</script>
+
+	<script>
+		window.sr = ScrollReveal({ reset: true })
+		ScrollReveal().reveal('.area-1')
+		ScrollReveal().reveal('.area-2')
+		ScrollReveal().reveal('.area-3')
+		ScrollReveal().reveal('.area-4')
+		ScrollReveal().reveal('.area-5')
+	</script>
+</body>
+
+</html>
