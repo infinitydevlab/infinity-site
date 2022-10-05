@@ -977,32 +977,8 @@ video {
   border-width: 3px;
 }
 
-.border-b-\[3px\]{
-  border-bottom-width: 3px;
-}
-
-.border-r-8{
-  border-right-width: 8px;
-}
-
-.border-l-\[3px\]{
-  border-left-width: 3px;
-}
-
-.border-r-\[3px\]{
-  border-right-width: 3px;
-}
-
-.border-t-\[3px\]{
-  border-top-width: 3px;
-}
-
 .border-dashed{
   border-style: dashed;
-}
-
-.border-double{
-  border-style: double;
 }
 
 .border-white{
@@ -1181,14 +1157,19 @@ video {
   line-height: 1.75rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-xs{
@@ -1277,9 +1258,9 @@ video {
   color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
-.text-gray-700{
+.text-gray-900{
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .text-gray-400{
@@ -1287,9 +1268,9 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.text-gray-900{
+.text-gray-700{
   --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .text-teal-900{
@@ -1339,24 +1320,16 @@ video {
   transition-duration: 150ms !important;
 }
 
-.delay-150{
-  transition-delay: 150ms;
-}
-
 .duration-200{
   transition-duration: 200ms;
 }
 
-.duration-500{
-  transition-duration: 500ms;
-}
-
-.duration-150{
-  transition-duration: 150ms;
-}
-
 .duration-300{
   transition-duration: 300ms;
+}
+
+.duration-500{
+  transition-duration: 500ms;
 }
 
 .ease-in{
@@ -1365,18 +1338,6 @@ video {
 
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hover\:border-\[3px\]:hover{
-  border-width: 3px;
-}
-
-.hover\:border-dashed:hover{
-  border-style: dashed;
-}
-
-.hover\:border-dotted:hover{
-  border-style: dotted;
 }
 
 .hover\:border-red-500:hover{
@@ -1406,11 +1367,6 @@ video {
 .hover\:text-red-600:hover{
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#c42527\]:hover{
-  --tw-text-opacity: 1;
-  color: rgb(196 37 39 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-2xl:hover{
@@ -1511,10 +1467,6 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(1rem * var(--tw-space-x-reverse));
     margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .sm\:border-\[3px\]{
-    border-width: 3px;
   }
 
   .sm\:border-\[0px\]{
